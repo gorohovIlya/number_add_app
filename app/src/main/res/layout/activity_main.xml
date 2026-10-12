@@ -11,18 +11,45 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/appTitle"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"
+        android:layout_margin="10sp"
+
         />
 
-    <Spinner
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/cities"/>
-    
+        android:layout_margin="10sp"
+        android:inputType="numberDecimal"
+        android:hint="@string/numA"
+        android:id="@+id/numA"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:inputType="numberDecimal"
+        android:hint="@string/numB"
+        android:id="@+id/numB"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10sp"
+        android:hint="@string/sumTxt"
+        android:id="@+id/sumAB"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="@string/sumBtn"
+        android:id="@+id/sumABBtn"
+        />
+
+
 
 </LinearLayout>

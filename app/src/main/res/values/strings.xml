@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">NumberAdd</string>
+    <string name="appTitle">Сложение двух чисел</string>
+    <string name="numA">Число A</string>
+    <string name="numB">Число B</string>
+    <string name="sumTxt">Сумма:</string>
+    <string name="sumBtn">СУММИРОВАТЬ</string>
     <string-array name="cities">
         <item>Moscow</item>
     </string-array>
